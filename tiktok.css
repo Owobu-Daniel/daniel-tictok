@@ -1,0 +1,345 @@
+body {
+    padding: 0 20px 0 5px;
+    background-color: rgb(250, 252, 251);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.top img {
+    width: 100px;
+}
+
+.input_layer {
+    margin-left: 28%;
+    background-color: rgb(231, 226, 226);
+    display: flex;
+    width: 450px;
+    height: 25px;
+    border-radius: 200px;
+    padding: 8px 12px;
+}
+
+.input_layer i {
+    color: rgb(180, 172, 172);
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+.input_layer input {
+    background-color: rgb(231, 226, 226);
+    border: none;
+    width: 80%;
+    font-size: 15px;
+    color: #000;
+}
+
+.vertical_line {
+    background-color: rgb(175, 166, 166);
+    width: 1px;
+}
+
+.right_top {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.right_top i {
+    font-size: 20px;
+    padding-top: 4px;
+    color: rgb(83, 81, 81);
+}
+
+.upload button {
+    border: 1px solid rgb(219, 209, 209);
+    background-color: white;
+    padding: 2px 15px;
+    height: 30px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+    color: #474646;
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.upload button:hover {
+    border: 1px solid rgb(100, 86, 86);
+    color: gray;
+}
+
+.plus {
+    font-size: 23px;
+}
+
+.login button {
+    background-color: rgb(252, 69, 99);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.horizontal_line {
+    background-color: rgb(245, 238, 238);
+    height: 1.5px;
+    width: 102%;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.main_content{
+    display: flex;
+    gap: 10%;
+}
+
+.nav-list {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.left_section {
+    display: flex;
+    list-style: none;
+}
+
+.home {
+    color: rgb(252, 69, 99);
+    font-family: a;
+}
+
+.icon_div {
+    margin-right: 10px;
+}
+
+.icon_div li {
+    margin-top: 9px;
+}
+
+.icon_name li {
+    margin-top: 12px;
+}
+
+.for_you {
+    color: rgb(252, 69, 99);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 70;
+}
+
+.explore button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 50px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.explore button:hover {
+    width: 52px;
+    border: groove;
+    border-color: #ff0000;
+    background-color: rgb(248, 14, 14);
+}
+
+
+.small_line {
+    width: 180px;
+    height: 1px;
+    background-color: rgb(245, 238, 238);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sec {
+    color: gray;
+    font-size: 13px;
+}
+
+.sec button {
+    color: rgb(212, 110, 110);
+    text-align: center;
+    width: 180px;
+    background-color: white;
+    height: 40px;
+    border: 1px solid rgb(228, 139, 139);
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.sec button:hover {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.sec p {
+    margin-bottom: 20px;
+}
+
+.middle_aside {
+    display: flex;
+    gap: 17%;
+    margin: auto; 
+}
+
+.middle {
+    display: flex;
+    gap: 10px;
+}
+
+.middle_passport img {
+    width: 47px;
+    border-radius: 100%;
+    height: 47px;
+}
+
+.with {
+    display: flex;
+}
+   
+.side_icon ul {
+    padding-left: 20px;
+    list-style: none;
+    margin-top: 130px;
+}
+
+.side_icon i {
+    border-radius: 200%;
+    border: 1px solid  rgb(231, 224, 224);
+    padding: 10px;
+    background-color: rgb(231, 224, 224);
+    margin-top: 20px;
+}
+
+.middle_first {
+    display: flex;
+}
+
+.middle_1  {
+    line-height: 0;
+}
+.middle_2  {
+    display: flex;
+}
+
+.big_image {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: xx-large;
+    line-height: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 450px;
+}
+
+.right {
+    margin-bottom: auto;
+    display: flex;
+}
+
+.follow {
+    padding-right: 10px;
+}
+
+.follow button {
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.follow button:hover {
+    cursor: pointer;
+}
+
+.down {
+    box-shadow: 2px 2px 1px 2px rgb(244, 242, 242);
+    border: 1px solid rgb(250, 245, 245);
+    text-align: left;
+    padding-left: 8%;
+    border-radius: 8px;
+    width: 300px;
+    background-color: red;
+    bottom: auto;
+}
+
+.get_app {
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    width: 60px;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    *{
+        align-content: space-evenly;
+    }
+
+    .input_layer{
+        height: 10px;
+    }
+
+    .input_layer input{
+        width: 55px;
+        height: 10px;
+    }
+
+    .input_layer i{
+        font-size: 13px;
+    }
+
+    .vertical_line {
+        height: 13px;
+    }
+
+    .middle_2{
+        display: flex;
+    }
+
+    .upload button{
+        width: 80px;
+        font-size: 11px;
+    }
+
+    .login button{
+        width: 80px;
+        font-size: 11px;
+    }
+
+    .right_top i{
+        font-size: 20px;
+    }
+
+    .right_top{
+        margin-left: 30px;
+    }
+
+    .top img {
+        width: 80px;
+    }
+
+
+}
